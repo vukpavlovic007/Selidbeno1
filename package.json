@@ -1,0 +1,17 @@
+{
+  "name": "selidbeno1",
+  "version": "1.0.0",
+  "description": "Selidbe",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "selidbe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
