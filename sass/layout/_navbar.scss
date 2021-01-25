@@ -1,6 +1,6 @@
 .navbar {
    max-width: 1300px;
-      margin: 0 auto;
+   margin: 0 auto;
    background-color: $color-secondary;
    display: flex;
    justify-content: space-evenly;
@@ -10,10 +10,6 @@
    left: 0;
    z-index: 4;
    width: 100%;
-
-   &_container {
-      
-   }
 
    &_main {
       display: flex;
