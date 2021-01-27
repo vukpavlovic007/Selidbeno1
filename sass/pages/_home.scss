@@ -65,7 +65,7 @@
 }
 
 .swiper-container {
-   width: 90%;
+   width: 95%;
 
    .swiper-slide {
       font-size: 2.7rem;
@@ -91,7 +91,7 @@
 }
 
 .usluge_more_container {
-   max-width: 1100px;
+   max-width: 1250px;
    margin: auto;
 }
 
@@ -128,7 +128,7 @@
       max-width: 1450px;
       margin: auto;
       background-color: #F8F8F8;
-      padding-bottom: 35rem;
+      padding-bottom: 3rem;
 
       .container {
 
@@ -157,5 +157,82 @@
             color: #5B5B5B;
          }
       }
+   }
+}
+
+#gallery {
+   margin-top: 10rem;
+   margin-bottom: 10rem;
+
+   .gallery_red_text {
+      color: $color-primary;
+      font-weight: 600;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+   }
+
+   h2 {
+      font-size: 2.6rem;
+      color: #474747;
+      width: 70%;
+      margin-bottom: 3rem;
+      font-weight: 800;
+   }
+}
+
+#kontakt {
+   background-color: $color-secondary;
+   text-align: center;
+   padding-top: 7rem;
+
+   .title {
+      margin-bottom: 4rem;
+
+      p {
+         font-size: 1.6rem;
+         color: $color-white;
+      }
+
+   h2 {
+      font-size: 2.7rem;
+      font-weight: 800;
+      color: $color-white;
+   }
+   }
+
+   .special {
+      border: none;
+      border-radius: 2rem;
+      width: 18rem;
+      height: 11rem;
+      background-color: $color-primary;
+      outline: none;
+   }
+
+   .fa-phone-alt {
+      width: 4rem;
+      color: $color-white;
+   }
+
+   p {
+      font-size: 1.6rem;
+      color: $color-white;
+      padding-top: 1.5rem;
+   }
+
+   .special_2 {
+      border: none;
+      border-radius: 2rem;
+      width: 18rem;
+      height: 11rem;
+      background-color: $color-secondary;
+      color: $color-white;
+      margin-left: 1rem;
+      outline: none;
+   }
+
+   .special:hover,
+   .special_2:hover {
+      cursor: pointer;
    }
 }

@@ -1,7 +1,7 @@
 var mySwiper = new Swiper('.swiper-container', {
    // Optional parameters
    direction: 'horizontal',
-   slidesPerView: '2.6',
+   slidesPerView: '3.6',
  
    // Navigation arrows
    navigation: {
