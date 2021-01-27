@@ -57,11 +57,13 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
-  position: relative; }
+  position: relative;
+  height: 50vh; }
   .section .video-container.js-video.youtube-video-place img {
     width: 100%;
     height: 100%;
-    border-radius: 3.3rem; }
+    border-radius: 3.3rem;
+    object-fit: cover; }
   .section .video-container.js-video.youtube-video-place .video__btn {
     position: absolute;
     left: 50%;
