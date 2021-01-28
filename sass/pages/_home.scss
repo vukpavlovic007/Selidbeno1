@@ -271,6 +271,8 @@
    .form_container {
       max-width: 400px;
       margin: auto;
+      padding: 3rem;
+      padding-top: 1.5rem;
    }
 
    textarea {
@@ -303,5 +305,16 @@
    .special_paragraph {
       color: $color-white;
    }
+}
+
+.button_btn {
+   border: 1px transparent solid;
+   border-radius: 0.7rem;
+   outline: none;
+   color: $color-secondary;
+}
+
+.button_btn:focus {
+   border: 1.5px #333 solid;
 }
 
