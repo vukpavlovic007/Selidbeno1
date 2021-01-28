@@ -250,7 +250,7 @@ body {
 
 #gallery {
   margin-top: 12rem;
-  margin-bottom: 12rem; }
+  margin-bottom: 17rem; }
   #gallery .gallery_red_text {
     color: #CF4B2F;
     font-weight: 600;
@@ -266,7 +266,8 @@ body {
 #kontakt {
   background-color: #1A161A;
   text-align: center;
-  padding-top: 7rem; }
+  padding-top: 7rem;
+  padding-bottom: 5rem; }
   #kontakt .title {
     margin-bottom: 4rem; }
     #kontakt .title p {
@@ -302,3 +303,50 @@ body {
   #kontakt .special:hover,
   #kontakt .special_2:hover {
     cursor: pointer; }
+
+.contact_form {
+  background-color: #fff;
+  max-width: 50rem;
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 5rem; }
+  .contact_form label {
+    display: block;
+    text-align: left;
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem; }
+  .contact_form input {
+    padding: 0.75rem;
+    border-radius: 0.7rem;
+    border: 1px #707070 solid;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    margin-bottom: 2rem; }
+  .contact_form input:focus {
+    border: 1px #CF4B2F solid;
+    transition: all 0.2s ease-in-out; }
+  .contact_form .form_container {
+    max-width: 400px;
+    margin: auto; }
+  .contact_form textarea {
+    padding: 0.75rem;
+    border-radius: 0.7rem;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    resize: none;
+    background-color: #F5F5F5;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 1px transparent solid; }
+  .contact_form textarea:focus {
+    border: 1px #CF4B2F solid;
+    transition: all 0.2s ease-in-out; }
+
+#kontakt .special_title {
+  color: #1A161A;
+  font-weight: 600;
+  font-size: 1.7rem; }
+
+#kontakt .special_paragraph {
+  color: #fff; }
