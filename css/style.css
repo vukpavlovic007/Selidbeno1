@@ -52,6 +52,9 @@ body {
   width: 100%;
   height: 100%; }
 
+.flex {
+  display: flex; }
+
 .section .video-container.js-video.youtube-video-place {
   display: flex;
   justify-content: center;
@@ -88,11 +91,8 @@ body {
     cursor: pointer; }
 
 .navbar {
-  max-width: 1300px;
-  margin: 0 auto;
   background-color: #1A161A;
   display: flex;
-  justify-content: space-evenly;
   padding: 1rem;
   position: fixed;
   top: 0;
