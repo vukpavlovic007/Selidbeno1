@@ -157,32 +157,33 @@ body {
 
 #home {
   background-color: #1A161A;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 12rem; }
 
 .home_picture {
-  padding: 25rem;
+  padding: 18rem;
   width: 100%;
   position: absolute;
   top: 50%;
   right: 0;
   transform: translate(0, -50%);
   z-index: 1; }
+  .home_picture .parent_img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 12%;
+    background-image: linear-gradient(to left, rgba(26, 22, 26, 0) 0%, #1a161a 80%);
+    width: 20%;
+    height: 90%;
+    z-index: 10; }
   .home_picture .main_image {
     z-index: 1;
     width: 100%;
     position: relative; }
-  .home_picture .main_image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(to right, rgba(26, 22, 26, 0), #1a161a);
-    width: 1000px;
-    height: 1000px;
-    z-index: 10; }
 
 .home_container {
-  max-width: 1350px;
+  max-width: 1400px;
   margin: auto;
   height: 100vh;
   display: flex;
