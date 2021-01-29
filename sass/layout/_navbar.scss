@@ -1,52 +1,50 @@
 .navbar {
-   background-color: $color-secondary;
    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: $color-secondary;
+   color: $color-white;
    padding: 1rem;
    position: fixed;
-   top: 0;
    left: 0;
-   z-index: 4;
+   top: 0;
+   z-index: 3;
    width: 100%;
-
-   &_main {
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-   }
 }
 
-.navbar ul {
+.logo {
+   font-size: 2.3rem;
+   margin: .5rem;
+}
+
+.navbar_links ul {
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navbar_links li {
    list-style: none;
 }
 
-.navbar a {
-   color: $color-white;
-   font-size: 1.5rem;
+.navbar_links li a {
    text-decoration: none;
-   padding: 0 0.25rem;
-   margin: 0 2rem;
-}
-
-.navbar a:hover {
-   
-}
-
-.navbar li:first-child a {
-   color: $color-primary;
-   border-bottom: 1px solid $color-primary;
-   margin-left: 0;
-}
-
-.navbar li:last-child a {
-   margin-right: 0;
-}
-
-.navbar p {
    color: $color-white;
-   font-size: 1.5rem;
+   padding: 1rem;
+   display: block;
+   position: relative;
+   font-size: 1.7rem;
+   transition: all 0.3s ease-in-out;
 }
 
-.navbar h2 {
-   color: $color-white;
-   font-size: 2.2rem;
+.navbar_links li a:hover:after {
+   content: "";
+   position: absolute;
+   left: 25%;
+   right: 25%;
+   bottom: 0;
+   width: 50%;
+   height: 1px;
+   background-color: $color-primary;
+   transition: all 0.3s ease-in-out;
 }

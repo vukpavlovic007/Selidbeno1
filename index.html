@@ -15,18 +15,21 @@
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 <body>
    <nav class="navbar">
-      <div class="container flex">
-         <h2 class="logo">Logo</h2>
-         <p>+38161 2 540 540</p>
-         <ul class="navbar_main">
-            <li><a href="#pocetna">Početna</a></li>
+      <div class="logo">Logo</div>
+      <div class="phone_number"></div>
+      <div class="navbar_links">
+         <ul>
+            <li><a href="#pocetna">Pocetna</a></li>
             <li><a href="#usluge">Usluge</a></li>
-            <li><a href="#about">O nama</a></li>
-            <li><a href="#klijenti">Naši klijenti</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="#o_nama">O nama</a></li>
+            <li><a href="#gallery">Galerija</a></li>
          </ul>
+      </div>
+      <div class="contact_button">
+         <li><a class="btn small" href="#kontakt">Kontakt</a></li>
       </div>
    </nav>
    <header class="home">
@@ -96,13 +99,15 @@
                <div class="swiper-slide_container">
                   <img src="./img/Image 1.png" alt="">
                   <p>Selidbe stanova</p>
-                  <div id="ex1" class="modal">
+                  <div id="ex1" class="modal slider_modal">
                      <h2>Selidbe stanova</h2>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius rerum, impedit omnis fugit asperiores. Nam cum incidunt minus accusantium magnam, eos pariatur, corrupti vel amet, vero tempora voluptatem maxime!</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius rerum, impedit omnis
+                        fugit asperiores. Nam cum incidunt minus accusantium magnam, eos pariatur, corrupti vel amet,
+                        vero tempora voluptatem maxime!</p>
                      <a href="#" rel="modal:close">Close</a>
-                   </div>
-                   <!-- Link to open the modal -->
-                   <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+                  </div>
+                  <!-- Link to open the modal -->
+                  <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
                </div>
 
             </div>

@@ -55,6 +55,9 @@ body {
 .flex {
   display: flex; }
 
+.small {
+  width: 5rem; }
+
 .section .video-container.js-video.youtube-video-place {
   display: flex;
   justify-content: center;
@@ -90,45 +93,56 @@ body {
   .section .video-container.js-video.youtube-video-place .video__btn:hover {
     cursor: pointer; }
 
+.modal.slider_modal p {
+  font-size: 10rem; }
+
+.modal.slider_modal h2 {
+  font-size: 2.6rem; }
+
 .navbar {
-  background-color: #1A161A;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A161A;
+  color: #fff;
   padding: 1rem;
   position: fixed;
-  top: 0;
   left: 0;
-  z-index: 4;
+  top: 0;
+  z-index: 3;
   width: 100%; }
-  .navbar_main {
-    display: flex;
-    justify-content: space-between;
-    text-align: center; }
 
-.navbar ul {
+.logo {
+  font-size: 2.3rem;
+  margin: .5rem; }
+
+.navbar_links ul {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+
+.navbar_links li {
   list-style: none; }
 
-.navbar a {
-  color: #fff;
-  font-size: 1.5rem;
+.navbar_links li a {
   text-decoration: none;
-  padding: 0 0.25rem;
-  margin: 0 2rem; }
-
-.navbar li:first-child a {
-  color: #CF4B2F;
-  border-bottom: 1px solid #CF4B2F;
-  margin-left: 0; }
-
-.navbar li:last-child a {
-  margin-right: 0; }
-
-.navbar p {
   color: #fff;
-  font-size: 1.5rem; }
+  padding: 1rem;
+  display: block;
+  position: relative;
+  font-size: 1.7rem;
+  transition: all 0.3s ease-in-out; }
 
-.navbar h2 {
-  color: #fff;
-  font-size: 2.2rem; }
+.navbar_links li a:hover:after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+  width: 50%;
+  height: 1px;
+  background-color: #CF4B2F;
+  transition: all 0.3s ease-in-out; }
 
 .home {
   height: 100%;
