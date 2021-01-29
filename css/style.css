@@ -116,7 +116,7 @@ body {
   padding: 1rem 3.5rem;
   background-color: #CF4B2F;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-decoration: none;
   border-radius: 2.1rem; }
 
@@ -151,39 +151,6 @@ body {
   height: 1px;
   background-color: #CF4B2F;
   transition: all 0.3s ease-in-out; }
-
-.home {
-  height: 100%;
-  width: 100%;
-  background-color: #1A161A;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 10rem; }
-
-.home_picture {
-  margin: auto;
-  width: 116rem;
-  padding: 7rem;
-  overflow: hidden; }
-
-.home_picture img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden; }
-
-.home_text {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%); }
-  .home_text p {
-    font-size: 2rem;
-    color: #CF4B2F; }
-  .home_text h1 {
-    color: #fff;
-    font-size: 4.5rem;
-    font-weight: 400; }
 
 .usluge_description {
   padding: 5rem 0;

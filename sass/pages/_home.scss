@@ -1,42 +1,4 @@
-.home {
-   height: 100%;
-   width: 100%;
-   background-color: $color-secondary;
-   position: relative;
-   overflow: hidden;
-   margin-bottom: 10rem;
-}
-
-.home_picture {
-   margin: auto;
-   width: 116rem;
-   padding: 7rem;
-   overflow: hidden;
-}
-
-.home_picture img {
-   width: 100%;
-   height: 100%;
-   overflow: hidden;
-}
-
-.home_text {
-   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-
-   & p {
-      font-size: 2rem;
-      color: $color-primary;
-   }
-
-  & h1 {
-     color: $color-white;
-     font-size: 4.5rem;
-     font-weight: 400;
-  }
+#home {
 }
 
 .usluge_description {
