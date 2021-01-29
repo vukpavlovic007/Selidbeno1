@@ -1,9 +1,38 @@
 .modal.slider_modal {
+
    p {
-      font-size: 10rem;
+      font-size: 1.7rem;
+      margin-bottom: 2rem;
+      color: #5B5B5B !important;
    }
 
    h2 {
       font-size: 2.6rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
    }
 }
+
+.modal {
+   max-width: 800px !important;
+}
+
+.close_modal {
+   padding: 1rem 3.5rem;
+   background-color: $color-primary;
+   border-radius: 2.1rem;
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: $color-white;
+   margin-bottom: 1rem;
+   display: inline-block;
+   transition: all 0.2s ease-in-out;
+}
+
+.close_modal:hover {
+   background-color: $color-primary-dark;
+   transition: all 0.2s ease-in-out;
+}
+
+
+

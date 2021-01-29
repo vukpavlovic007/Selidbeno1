@@ -97,10 +97,31 @@ body {
     cursor: pointer; }
 
 .modal.slider_modal p {
-  font-size: 10rem; }
+  font-size: 1.7rem;
+  margin-bottom: 2rem; }
 
 .modal.slider_modal h2 {
-  font-size: 2.6rem; }
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem; }
+
+.modal {
+  max-width: 800px !important; }
+
+.close_modal {
+  padding: 1rem 3.5rem;
+  background-color: #CF4B2F;
+  border-radius: 2.1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 1rem;
+  display: inline-block;
+  transition: all 0.2s ease-in-out; }
+
+.close_modal:hover {
+  background-color: #ba432a;
+  transition: all 0.2s ease-in-out; }
 
 .navbar {
   display: flex;

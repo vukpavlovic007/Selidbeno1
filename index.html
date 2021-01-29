@@ -11,9 +11,9 @@
    <title>SELIDBE BROJ 1</title>
    <link rel="stylesheet" href="./css/style.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> </head>
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> </head>
 
 <body>
    <nav class="navbar">
@@ -61,64 +61,154 @@
          <!-- Additional required wrapper -->
          <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">
-               <div class="swiper-slide_container">
-                  <img src="./img/Image 1.png" alt="">
-                  <p>Selidbe stanova</p>
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-slide_container">
-                  <img src="./img/Image 1.png" alt="">
-                  <p>Selidbe stanova</p>
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-slide_container">
-                  <img src="./img/Image 1.png" alt="">
-                  <p>Selidbe stanova</p>
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-slide_container">
-                  <img src="./img/Image 1.png" alt="">
-                  <p>Selidbe stanova</p>
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-slide_container">
-                  <img src="./img/Image 1.png" alt="">
-                  <p>Selidbe stanova</p>
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-slide_container">
-                  <img src="./img/Image 1.png" alt="">
-                  <p>Selidbe stanova</p>
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-slide_container">
-                  <img src="./img/Image 1.png" alt="">
-                  <p>Selidbe stanova</p>
-                  <div id="ex1" class="modal slider_modal">
-                     <h2>Selidbe stanova</h2>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius rerum, impedit omnis
-                        fugit asperiores. Nam cum incidunt minus accusantium magnam, eos pariatur, corrupti vel amet,
-                        vero tempora voluptatem maxime!</p>
-                     <a href="#" rel="modal:close">Close</a>
-                  </div>
-                  <!-- Link to open the modal -->
-                  <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
-               </div>
 
-            </div>
             <div class="swiper-slide">
-               <div class="swiper-slide_container">
+               <a href="#ex1" class="swiper-slide_container open_modal" rel="modal:open">
                   <img src="./img/Image 1.png" alt="">
                   <p>Selidbe stanova</p>
+               </a>
+               <div id="ex1" class="modal slider_modal">
+                  <h2>Selidbe stanova</h2>
+                  <p>Prilikom selidbe stana važno je obratiti pažnju na više aspekata koji karakterišu selidbu,
+                     njenu kompleksnost i zahtevnost, a to su sam položaj zgrade ili objekta, odnosno da li sama zgrada ima dobar pristup za naše vozilo
+                     , tj da li se objektu može prići do te mere da se radnicima olakša utovar i istovar stvari, koji u mnogome i diktira cenu same selidbe.
+                     Takođe sam geografski položaj objekta može predstavljati problem za selidbu, jer u određenim delovima grada, nije dozvoljeno
+                     parkiranje vozila duže od 2-3 časa, ili je u potupnosti onemogućeno. Ovaj detalj jako je bitan kada se planira selidba
+                     na teritoriji centralnih gradskih opština grada Beograda.
+                     Zatim tu je bitan faktor i spratnost i dostupnost lifta kao i njegove dimenzije u odnosnu na dimenzije stvari i nameštaja koje se sele.
+                     Određeni komadi nameštaja se moraju demontirati pre selidbe i po svojim fizičkim karakteristikama ne mogu se seliti i tzransportovati u celini,
+                     a to opet zahteva dosta više više vremena za ceo proces selidbe.
+                     Ovi i mnogi drugi aspekti čine posao selidbe više nego komleksnim logističkim izazovom sa kojima se naša agencija susreće svaki dan,
+                     ali ne brinite, na pravom ste mestu.</p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
                </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex1" rel="modal:open"><div class="open_modal"></div></a></p>
             </div>
+
+            <div class="swiper-slide">
+               <a href="#ex2" class="swiper-slide_container open_modal" rel="modal:open">
+                  <img src="./img/Image 1.png" alt="">
+                  <p>Selidbe firmi</p>
+               </a>
+               <div id="ex2" class="modal slider_modal">
+                  <h2>Selidbe firmi</h2>
+                  <p>Prilikom selidbe firmi, lokala, preduzeća, kancelarijskog i drugog radnog prostora, najzahtevniji aspekat jeste količina
+                     stvari i nameštaja koji se sele, i lokacija na kojoj se objekat nalazi. U mnogim slučajevima, naši radnici se susreću sa
+                     komadima namštaja koji su poravljeni po meri za određenu firmu, prostoriju i objekat, što čersto komplikuje sam proces selidbe
+                     i preseljenja, u smislu da neki od tih komada nameštaja nije moguće u opšte rasklopiti ili bi se njegovim rasklapanjem dovela u
+                     pitanje njegova dalja funkcionalnost. Zato je prilikom selidbe firmi neophodno da neko od naših radnika ili stručnih lica
+                     dođe kod vas na adresu i proceni kakvi su uslovi za realizaciju selidbe, koliko je radne snage potrebno, zaštitnog materijala
+                     i vremana za demontažu, utovar i realizaciju kompletne selidbe.</p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
+               </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex2" rel="modal:open"><div class="open_modal"></div></a></p>
+            </div>
+
+            <div class="swiper-slide">
+               <a href="#ex3" class="swiper-slide_container open_modal" rel="modal:open">
+                  <img src="./img/Image 1.png" alt="">
+                  <p>Selidbe izvan grada Beograda</p>
+               </a>
+               <div id="ex3" class="modal slider_modal">
+                  <h2>Selidbe izvan grada Beograda</h2>
+                  <p>Agencija za selidbe SELIDBE NO 1 se bavi preseljenjem, kako u Beogradu, tako i izvan granica grada Beograda, tačnije na
+                     teritoriji cele Srbije. i regiona. Prilikom selidbe izvan grada Beograda računa se ukupna distanca između tačke utovara i
+                     tačke istovara, što u ovom slučaju u velikoj meri, pored ostalih gore navedenih faktora, određuje i cenu same selidbe.
+                     Ali ne brinite, cene prevoza i selidbe izvan grada se računaju na jednostavan način, po pređenom kilometru i utrošku vremana
+                     tako da na odeljku CENE možete proveriti koliko se tarifira prevoz izvan grada.</p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
+               </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex3" rel="modal:open"><div class="open_modal"></div></a></p>
+            </div>
+
+            <div class="swiper-slide">
+               <a href="#ex4" class="swiper-slide_container open_modal" rel="modal:open">
+                  <img src="./img/Image 1.png" alt="">
+                  <p>Montaža i demontaža nameštaja</p>
+               </a>
+               <div id="ex4" class="modal slider_modal">
+                  <h2>Montaža i demontaža nameštaja</h2>
+                  <p>Montaža i demontaža nameštaja je ponekad zaista jednostavan i lak posao, a ponekad može predstavljati pravi izazov za laika.
+                     S toga su naši radnici kroz godine iskustva u selidbama ušli u suštnu i materiju stvari kad se radi o montaži i demontaži
+                     vašeg nameštaja. Naša vozila i radnici takođe su opremljeni svim potrebnim alatom za demontažu i montažu vašeg nameštaja,
+                     s toga ne brinite, i prepustite stvar u ruke profesionalcima.</p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
+               </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex4" rel="modal:open"><div class="open_modal"></div></a></p>
+            </div>
+
+            <div class="swiper-slide">
+               <a href="#ex5" class="swiper-slide_container open_modal" rel="modal:open">
+                  <img src="./img/Image 1.png" alt="">
+                  <p>Pakovanje stvari</p>
+               </a>
+               <div id="ex5" class="modal slider_modal">
+                  <h2>Pakovanje stvari</h2>
+                  <p>U koliko imate previše obaveza, i ne želite da se zamarate sa pakovanjem vaših stvari u kutije ili dzambo vreće, slaganjem
+                     i zaštitom posuđa ili escajga, zaštitom malih kućnih aparata, tu smo za vas. Naši momci će po vašoj želji doći dan-dva ranije i obaviti
+                     svo pakovanje za vas i pripremiti sve da sav vaš escajg i dragocenosti budu preseljeni na drugu lokaciju dok trepnete, brzo i sigurno,
+                     dok vi vaše dragoceno vreme možete posvetiti deci, poslu i drugim obavezama.</p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
+               </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex5" rel="modal:open"><div class="open_modal"></div></a></p>
+            </div>
+
+            <div class="swiper-slide">
+               <a href="#ex6" class="swiper-slide_container open_modal" rel="modal:open">
+                  <img src="./img/Image 1.png" alt="">
+                  <p>Najam radnika</p>
+               </a>
+               <div id="ex6" class="modal slider_modal">
+                  <h2>Najam radnika
+                  </h2>
+                  <p>Ponekad za selidbu nije potreban prevoz ni kombijem ni kamionom već samo iskusna i pažljiva radna snaga, iskusnog tima za selidbe kako bi
+                     se vaše stvari preselile sa jedne na drugu lokaciju. U mnogim slučajevima naš tim je angažovan da preslei stvari iz jednog stana u drugi na
+                     istoj lokaciji. Nemojte misliti da je ovakav tip selidbe išta manje zahtevan od gore navedenih, jer i u ovom slučaju mora se obratiti
+                     pažnja na bezbednost i zaštitu nameštaja i dragocenosti kao da se transportuju vozilom, jer prilikom manevrisanja kroz zgrade i objekte
+                     vrlo lako se može oštetiti svaki komad nameštaja, u koliko sa njim barata neiskusan radnik. Zato se nama možete obratiti u svako doba
+                     za najam najiskusnij radnika iz ove branše, jer ipak ovi momci nisu samo fizikalci i nemojte ih podcenjivati, oni su profesionalci u svom poslu
+                     i prema vašim stvarima se odnose kao prema svojoj ličnoj imovini.</p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
+               </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex6" rel="modal:open"><div class="open_modal"></div></a></p>
+            </div>
+
+            <div class="swiper-slide">
+               <a href="#ex7" class="swiper-slide_container open_modal" rel="modal:open">
+                  <img src="./img/Image 1.png" alt="">
+                  <p>Selidbe bez radnika</p>
+               </a>
+               <div id="ex7" class="modal slider_modal">
+                  <h2>Selidbe bez radnika</h2>
+                  <p>Ukoliko vam finansijsko stanje ne dozvoljava da za selidbu angažujete naš tim radnika, ili nemate mnogo stvari i spratnost nije velika,
+                     možete angažovati naše čisto i bezbedno vozilo da vam preveze nameštaj i stvari sa jedne na drugu lokaciju.</p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
+               </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex7" rel="modal:open"><div class="open_modal"></div></a></p>
+            </div>
+
+            <div class="swiper-slide">
+               <a href="#ex8" class="swiper-slide_container open_modal" rel="modal:open">
+                  <img src="./img/Image 1.png" alt="">
+                  <p>ON LINE procena</p>
+               </a>
+               <div id="ex8" class="modal slider_modal">
+                  <h2>Selidbe stanova</h2>
+                  <p>Zauzeti ste na poslu ili drugim obavezama? Nemate vremana za satanak sa našim stručnjakom ili radnikom radi procene same selidbe?
+                     Nikakav problem! Naša agencija pružiće vam besplatnu procenu na osnovu slika i video snimaka koje nam dostavite na Viber, WhatsUp ili Instagram. </p>
+                  <a class="close_modal" href="#" rel="modal:close">Zatvori</a>
+               </div>
+               <!-- Link to open the modal -->
+               <p><a href="#ex8" rel="modal:open"><div class="open_modal"></div></a></p>
+            </div>
+
          </div>
          <div class="swiper-button-prev"></div>
          <div class="swiper-button-next"></div>
