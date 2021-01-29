@@ -160,18 +160,29 @@ body {
   color: #fff; }
 
 .home_picture {
-  max-width: 1250px;
+  padding: 25rem;
+  width: 100%;
   position: absolute;
   top: 50%;
   right: 0;
   transform: translate(0, -50%);
   z-index: 1; }
   .home_picture .main_image {
-    width: 90rem;
-    z-index: 1; }
+    z-index: 1;
+    width: 100%;
+    position: relative; }
+  .home_picture .main_image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, rgba(26, 22, 26, 0), #1a161a);
+    width: 1000px;
+    height: 1000px;
+    z-index: 10; }
 
 .home_container {
-  max-width: 1250px;
+  max-width: 1350px;
   margin: auto;
   height: 100vh;
   display: flex;
