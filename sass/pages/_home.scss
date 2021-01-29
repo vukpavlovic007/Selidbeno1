@@ -1,4 +1,45 @@
 #home {
+   background-color: $color-secondary;
+   color: $color-white;
+}
+
+.home_picture {
+   max-width: 1250px;
+   position: absolute;
+   top:50%;
+   right: 0;
+   transform: translate(0, -50%);
+   z-index: 1;
+
+   .main_image {
+      width: 90rem;
+      z-index: 1;
+   }
+}  
+
+.home_container {
+   max-width: 1250px;
+   margin: auto;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   position: relative;
+
+   .header_text {
+      z-index: 2;
+
+      .header_red_text {
+         color: $color-primary;
+         font-size: 1.6rem;
+      }
+
+      .home_title {
+         font-size: 3.3rem;
+         font-weight: 600;
+         line-height: 5rem;
+         margin-bottom: 4rem;
+      }
+   }
 }
 
 .usluge_description {
@@ -84,15 +125,29 @@
    }
 }
 
+
+.about:after {
+   content:"";
+   border-radius: 0.7rem;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #F8F8F8;
+   height: 100vh;
+   position: absolute;
+   z-index: -1;
+}
+
 .about {
+   max-width: 1450px;
+   position: relative;
+   margin: 0 3rem;
+   margin: auto;
 
    &_container {
       padding-top: 3.5rem;
-      max-width: 1450px;
       margin: auto;
-      background-color: #F8F8F8;
       padding-bottom: 3rem;
-
       .container {
 
          h2 {
