@@ -86,7 +86,7 @@
    width: 95%;
 
    .swiper-slide {
-      font-size: 2.7rem;
+      font-size: 1.9rem;
       padding: 0 2rem;
       
       &_container {
@@ -97,6 +97,7 @@
          width: 100%;
          height: 100%;
          border-radius: 11px;
+         filter:brightness(75%);
       }
 
       & p {
@@ -153,7 +154,7 @@
 }
 
 .about {
-   max-width: 1450px;
+   max-width: 1800px;
    position: relative;
    margin: 0 3rem;
    margin: auto;

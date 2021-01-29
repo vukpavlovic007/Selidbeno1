@@ -98,7 +98,8 @@ body {
 
 .modal.slider_modal p {
   font-size: 1.7rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  color: #5B5B5B !important; }
 
 .modal.slider_modal h2 {
   font-size: 2.6rem;
@@ -243,14 +244,15 @@ body {
 .swiper-container {
   width: 95%; }
   .swiper-container .swiper-slide {
-    font-size: 2.7rem;
+    font-size: 1.9rem;
     padding: 0 2rem; }
     .swiper-container .swiper-slide_container {
       position: relative; }
     .swiper-container .swiper-slide img {
       width: 100%;
       height: 100%;
-      border-radius: 11px; }
+      border-radius: 11px;
+      filter: brightness(75%); }
     .swiper-container .swiper-slide p {
       position: absolute;
       left: 1.5rem;
@@ -292,7 +294,7 @@ body {
   z-index: -1; }
 
 .about {
-  max-width: 1450px;
+  max-width: 1800px;
   position: relative;
   margin: 0 3rem;
   margin: auto; }
