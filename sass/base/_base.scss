@@ -15,3 +15,26 @@ body {
    font-weight: 400;
    line-height: 1.7;
 }
+
+@media (max-width: 1400px) {
+   html {
+     font-size: 58%;
+   }
+ }
+ 
+ @media (max-width: 1007px) {
+   html {
+     font-size: 56%;
+   }
+ }
+ 
+ @media (max-width: 767px) {
+   html {
+     font-size: 55%;
+   }
+ }
+ @media (max-width: 614px) {
+   html {
+     font-size: 52%;
+   }
+ }

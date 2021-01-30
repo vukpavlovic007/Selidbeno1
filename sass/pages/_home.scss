@@ -86,7 +86,7 @@
    width: 95%;
 
    .swiper-slide {
-      font-size: 1.9rem;
+      font-size: 2.2rem;
       padding: 0 2rem;
       
       &_container {
@@ -112,6 +112,7 @@
 .usluge_more_container {
    max-width: 1250px;
    margin: auto;
+   padding: 0 2rem;
 }
 
 .usluge_more {
@@ -154,7 +155,7 @@
 }
 
 .about {
-   max-width: 1800px;
+   max-width: 1750px;
    position: relative;
    margin: 0 3rem;
    margin: auto;
@@ -327,6 +328,8 @@
 }
 
 #kontakt {
+   padding: 2rem;
+   padding-bottom: 1rem;
 
    .special_title {
       color: $color-secondary;
