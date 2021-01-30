@@ -2,6 +2,10 @@
    background-color: $color-secondary;
    color: $color-white;
    margin-bottom: 12rem;
+
+   @include respond(phone) {
+      margin-bottom: 6rem;
+   }
 }
 
 .home_picture {
@@ -115,11 +119,7 @@
    padding: 0 2rem;
 
    @media (max-width: 610px) {
-      width: 80%;
-   }
-
-   @media (max-width: 520px) {
-      width: 95%;
+    width: 100%;
    }
 }
 
@@ -133,13 +133,17 @@
    justify-content: space-between;
    align-items: center;
 
+   @include respond(phone) {
+      margin-bottom: 10rem;
+   }
+
    @media (max-width: 610px) {
       flex-direction: column;
       text-align: center;
       padding: 2rem;
 
       .btn {
-         margin-top: 2rem;
+         margin-top: 3.5rem;
       }
    }
 
@@ -190,6 +194,10 @@
             width: 70%;
             margin-bottom: 3rem;
             font-weight: 800;
+
+            @include respond(tab-port) {
+               width: 100%;
+            }
          }
          .about_red_text {
             color: $color-primary;
@@ -215,6 +223,11 @@
 #gallery {
    margin-top: 12rem;
    margin-bottom: 17rem;
+
+   @include respond(phone) {
+      margin-bottom: 10rem;
+      margin-top: 9rem;
+   }
 
    .gallery_red_text {
       color: $color-primary;
@@ -364,7 +377,11 @@
    border: 1px transparent solid;
    border-radius: 0.7rem;
    outline: none;
-   color: $color-secondary;
+   padding: 1.5rem 20%;
+}
+
+.button_btn:hover {
+   cursor: pointer;
 }
 
 .button_btn:focus {

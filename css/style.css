@@ -32,7 +32,7 @@ body {
 .container {
   max-width: 1250px;
   margin: auto;
-  padding: 0 2rem; }
+  padding: 0 2.5rem; }
 
 .btn {
   background-color: #CF4B2F;
@@ -113,15 +113,16 @@ body {
   .section .video-container.js-video.youtube-video-place .video__btn:hover {
     cursor: pointer; }
 
-.modal.slider_modal p {
-  font-size: 1.7rem;
-  margin-bottom: 2rem;
-  color: #5B5B5B !important; }
-
-.modal.slider_modal h2 {
-  font-size: 2.6rem;
-  font-weight: 600;
-  margin-bottom: 1rem; }
+.modal.slider_modal {
+  z-index: 1000; }
+  .modal.slider_modal p {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    color: #5B5B5B !important; }
+  .modal.slider_modal h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem; }
 
 .modal {
   max-width: 800px !important; }
@@ -247,6 +248,9 @@ body {
   background-color: #1A161A;
   color: #fff;
   margin-bottom: 12rem; }
+  @media (max-width: 37.5em) {
+    #home {
+      margin-bottom: 6rem; } }
 
 .home_picture {
   padding: 18rem;
@@ -331,10 +335,7 @@ body {
   padding: 0 2rem; }
   @media (max-width: 610px) {
     .usluge_more_container {
-      width: 80%; } }
-  @media (max-width: 520px) {
-    .usluge_more_container {
-      width: 95%; } }
+      width: 100%; } }
 
 .usluge_more {
   background-color: #1A161A;
@@ -345,13 +346,16 @@ body {
   margin-bottom: 15rem;
   justify-content: space-between;
   align-items: center; }
+  @media (max-width: 37.5em) {
+    .usluge_more {
+      margin-bottom: 10rem; } }
   @media (max-width: 610px) {
     .usluge_more {
       flex-direction: column;
       text-align: center;
       padding: 2rem; }
       .usluge_more .btn {
-        margin-top: 2rem; } }
+        margin-top: 3.5rem; } }
   .usluge_more_text {
     color: #fff;
     width: 50%; }
@@ -388,6 +392,9 @@ body {
       width: 70%;
       margin-bottom: 3rem;
       font-weight: 800; }
+      @media (max-width: 56.25em) {
+        .about_container .container h2 {
+          width: 100%; } }
     .about_container .container .about_red_text {
       color: #CF4B2F;
       font-weight: 600;
@@ -405,6 +412,10 @@ body {
 #gallery {
   margin-top: 12rem;
   margin-bottom: 17rem; }
+  @media (max-width: 37.5em) {
+    #gallery {
+      margin-bottom: 10rem;
+      margin-top: 9rem; } }
   #gallery .gallery_red_text {
     color: #CF4B2F;
     font-weight: 600;
@@ -513,7 +524,10 @@ body {
   border: 1px transparent solid;
   border-radius: 0.7rem;
   outline: none;
-  color: #1A161A; }
+  padding: 1.5rem 20%; }
+
+.button_btn:hover {
+  cursor: pointer; }
 
 .button_btn:focus {
   border: 1.5px #333 solid; }
