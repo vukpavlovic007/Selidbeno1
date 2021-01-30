@@ -113,6 +113,14 @@
    max-width: 1250px;
    margin: auto;
    padding: 0 2rem;
+
+   @media (max-width: 610px) {
+      width: 80%;
+   }
+
+   @media (max-width: 520px) {
+      width: 95%;
+   }
 }
 
 .usluge_more {
@@ -124,6 +132,16 @@
    margin-bottom: 15rem;
    justify-content: space-between;
    align-items: center;
+
+   @media (max-width: 610px) {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+
+      .btn {
+         margin-top: 2rem;
+      }
+   }
 
    &_text {
       color: $color-white;
