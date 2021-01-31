@@ -96,6 +96,9 @@ body {
 .input-error {
   box-shadow: 0 0 5px red; }
 
+.form-message {
+  margin: 1rem; }
+
 .section .video-container.js-video.youtube-video-place {
   display: flex;
   justify-content: center;

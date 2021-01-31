@@ -337,24 +337,24 @@
       <div class="contact_form">
          <p class="special_title">Kontakt forma</p>
 
-         <form action="mail.php" method="POST" class="form_container">
-            <div class="name_input">
+         <form class="form_container">
+            <div>
                <label for="name">Vase ime</label>
-               <input type="text" name="name" id="name" placeholder="Petar Petrovic..">
+               <input class="name_input" type="text" name="name" id="name">
             </div>
-            <div class="title_input">
+            <div>
                <label for="title">Naslov poruke</label>
-               <input type="text" name="title" id="title" placeholder="Meni je potrebna selidba!">
+               <input class="title_input" type="text" name="title" id="title">
             </div>
-            <div class="email_input">
+            <div>
                <label for="email">Vas Email</label>
-               <input type="email" name="email" id="email" placeholder="primer@gmail.com">
+               <input class="email_input" type="text" name="email" id="email">
             </div>
-            <div class="message_input">
+            <div>
                <label for="message">Poruka</label>
-               <textarea name="message" id="message" cols="30" rows="10" placeholder="Vasa poruka.."></textarea>
+               <textarea class="message_input" name="message" id="message" cols="30" rows="10" ></textarea>
             </div>
-            <button class="btn button_btn mail-submit" type="submit">Posalji</button>
+            <button class="btn button_btn mail-submit" onclick="sendEmail()">Posalji</button>
             <p class="form-message"></p>
          </form>
       </div>
@@ -370,25 +370,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
    <script src="modal.js"></script>
    <script src="navbar.js"></script>
-   <script>
-      $(document).ready(function() {
-         $("form").submit(function(event) {
-            event.preventDefault();
-            var name = $(".name_input").val();
-            var title = $(".title_input").val();
-            var email = $(".email_input").val();
-            var message = $(".message_input").val();
-            var submit = $(".mail-submit").val();
-            $(".form-message").load("mail.php", {
-               name:name,
-               title:title,
-               email:email,
-               message:message,
-               submit:submit
-            });
-         });
-      });
-   </script>
+   <script src="kontakt.js"></script>
 </body>
 
 </html>
