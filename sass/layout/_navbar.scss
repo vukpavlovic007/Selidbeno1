@@ -97,6 +97,7 @@
    background-color: transparent;
    outline: none;
    border: none;
+   z-index: 6;
 
    @include respond(phone) {
       display: flex;

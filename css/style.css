@@ -234,7 +234,8 @@ body {
   height: 2.1rem;
   background-color: transparent;
   outline: none;
-  border: none; }
+  border: none;
+  z-index: 6; }
   @media (max-width: 43.75em) {
     .toggle-button {
       display: flex; } }
