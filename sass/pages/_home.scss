@@ -149,12 +149,12 @@
 
    &_text {
       color: $color-white;
-      width: 50%;
 
       & h2 {
          font-size: 2.5rem;
-         line-height: 5rem;
+         line-height: 3rem;
          font-weight: 600;
+         margin-bottom: 2rem;
       }
 
       & p {
@@ -213,7 +213,7 @@
          .about_main_text p {
             display: inline-block;
             width: 47%;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             color: #5B5B5B;
          }
       }
@@ -239,7 +239,6 @@
    h2 {
       font-size: 2.6rem;
       color: #474747;
-      width: 70%;
       margin-bottom: 3rem;
       font-weight: 800;
    }
@@ -263,6 +262,7 @@
       font-size: 2.7rem;
       font-weight: 800;
       color: $color-white;
+      padding-top: 3rem;
    }
    }
 

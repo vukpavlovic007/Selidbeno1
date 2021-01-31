@@ -1,0 +1,57 @@
+.main_title {
+   font-size: 2.7rem;
+   margin-bottom: 3rem;
+}
+
+.second_title {
+   font-size: 2.2rem;
+   font-weight: 600;
+   margin-bottom: 0.7rem;
+}
+
+.basic_text {
+   font-size: 1.7rem;
+   color: #493E49;
+   margin-bottom: 2.3rem;
+}
+
+.materials_container {
+   margin-top: 12rem;
+}
+
+.image_container {
+   width: 100%;
+   background-color: $color-secondary;
+   padding: 2rem;
+   border-radius: 0.8rem;
+   margin-bottom: 6rem;
+}
+
+.image_container img {
+   width: 30%;
+   display: block;
+   margin: auto;
+   margin-top: 4.5rem;
+}
+
+.primary_color {
+   color: $color-primary;
+}
+
+.fa-check {
+   color: #4EC572;
+}
+
+.image_container_2 {
+   width: 100%;
+   background-color: $color-secondary;
+   padding: 3rem;
+   border-radius: 0.8rem;
+   margin-bottom: 6rem;
+}
+
+.image_container_2 img {
+   width: 30%;
+   display: block;
+   margin: auto;
+}
