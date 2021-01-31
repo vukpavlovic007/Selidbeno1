@@ -3,10 +3,21 @@ function sendEmail() {
    var email = $(".email_input");
    var body = $(".message_input");
    var title = $(".title_input");
-   console.log("sending...");
 
    if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(body) && isNotEmpty(title)) {
-      console.log("passed condition...");
+      $.ajax({
+         url:'mail.php',
+         method: 'POST',
+         dataType: 'json',
+         data: {
+            name: name.val(),
+            email: email.val(),
+            title: title.val(),
+            body: body.val()
+         }, success: function (response) {
+            console.log(response);
+         }
+      });
    }
 }  
 
