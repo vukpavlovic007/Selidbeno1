@@ -527,7 +527,8 @@ body {
     background-color: #F5F5F5;
     width: 100%;
     margin-bottom: 2rem;
-    border: 1px transparent solid; }
+    border: 1px transparent solid;
+    font-family: inherit; }
   .contact_form textarea:focus {
     border: 1px #CF4B2F solid;
     transition: all 0.2s ease-in-out; }
@@ -632,7 +633,7 @@ body {
 
 .image_container_basic {
   margin: auto;
-  width: 110%;
+  width: 100%;
   display: block;
   margin-bottom: 6rem; }
   .image_container_basic img {
@@ -642,3 +643,5 @@ body {
 
 .usluge_container {
   max-width: 800px; }
+  .usluge_container .basic_text {
+    margin-bottom: 5rem; }

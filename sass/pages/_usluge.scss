@@ -1,6 +1,6 @@
 .image_container_basic {
    margin: auto;
-   width: 110%;
+   width: 100%;
    display: block;
    margin-bottom: 6rem;
 
@@ -14,5 +14,9 @@
 
 .usluge_container {
    max-width: 800px;
+
+   .basic_text {
+      margin-bottom: 5rem;
+   }
 }
 
