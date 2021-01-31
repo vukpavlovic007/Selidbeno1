@@ -123,6 +123,10 @@
    }
 }
 
+.blocker {
+   z-index: 5!important;
+}
+
 .usluge_more {
    background-color: $color-secondary;
    display: flex;

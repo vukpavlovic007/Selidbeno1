@@ -29,6 +29,10 @@
 
    .grid_block_2 {
       padding: 1.5rem;
+
+      @include respond(phone) {
+         grid-column: 1 / 3;
+      }
    }
 
    .primary_color{ 
