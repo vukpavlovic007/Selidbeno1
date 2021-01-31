@@ -87,6 +87,15 @@ body {
 .text_semibold {
   font-weight: 600; }
 
+.form-error {
+  color: red; }
+
+.form-success {
+  color: green; }
+
+.input-error {
+  box-shadow: 0 0 5px red; }
+
 .section .video-container.js-video.youtube-video-place {
   display: flex;
   justify-content: center;
