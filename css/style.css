@@ -293,7 +293,8 @@ body {
   z-index: 1; }
   @media (max-width: 1200px) {
     .home_picture {
-      position: static; } }
+      position: static;
+      transform: translate(0, 0); } }
   .home_picture .parent_img:after {
     content: "";
     position: absolute;
@@ -322,7 +323,8 @@ body {
   @media (max-width: 1200px) {
     .home_container {
       flex-direction: column;
-      height: 80vh; } }
+      height: auto;
+      align-items: initial; } }
   .home_container .header_text {
     z-index: 2; }
     .home_container .header_text .header_red_text {
