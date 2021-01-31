@@ -208,6 +208,10 @@
          .about_main_text {
             display: flex;
             justify-content: space-between;
+
+            @include respond(phone) {
+               flex-direction: column;
+            }
          }
 
          .about_main_text p {
@@ -215,6 +219,11 @@
             width: 47%;
             font-size: 1.6rem;
             color: #5B5B5B;
+
+            @include respond(phone) {
+               margin: 1.5rem auto;
+               width: 100%;
+            }
          }
       }
    }

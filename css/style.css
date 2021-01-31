@@ -155,7 +155,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 2;
+  z-index: 5;
   width: 100%; }
   @media (max-width: 37.5em) {
     .navbar {
@@ -403,11 +403,18 @@ body {
     .about_container .container .about_main_text {
       display: flex;
       justify-content: space-between; }
+      @media (max-width: 37.5em) {
+        .about_container .container .about_main_text {
+          flex-direction: column; } }
     .about_container .container .about_main_text p {
       display: inline-block;
       width: 47%;
       font-size: 1.6rem;
       color: #5B5B5B; }
+      @media (max-width: 37.5em) {
+        .about_container .container .about_main_text p {
+          margin: 1.5rem auto;
+          width: 100%; } }
 
 #gallery {
   margin-top: 12rem;
