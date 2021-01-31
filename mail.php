@@ -11,7 +11,7 @@
       require_once "SMTP.php";
       require_once "Exception.php";
 
-      $mail = new PHPMailer();
+      $mail = new PHPMailer(true);
 
       $mail->isSMTP();
       $mail->Host = "smtp.gmail.com";

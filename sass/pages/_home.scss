@@ -5,6 +5,11 @@
 
    @include respond(phone) {
       margin-bottom: 6rem;
+      
+   }
+
+   @media (max-width: 1200px) {
+      padding-top: 10rem;
    }
 }
 
@@ -17,6 +22,10 @@
    transform: translate(0, -50%);
    z-index: 1;
 
+   @media (max-width: 1200px) {
+      position: static;
+   }
+
    .parent_img:after {
       content: "";
       position: absolute;
@@ -26,6 +35,10 @@
       width: 20%;
       height: 85%;
       z-index: 10;
+
+      @media (max-width: 1200px) {
+         display: none;
+      }
    }
 
    .main_image {
@@ -42,6 +55,13 @@
    display: flex;
    align-items: center;
    position: relative;
+   padding: 2rem;
+
+
+   @media (max-width: 1200px) {
+         flex-direction: column;
+         height: 80vh;
+   }
 
    .header_text {
       z-index: 2;
