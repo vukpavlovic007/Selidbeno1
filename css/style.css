@@ -81,6 +81,12 @@ body {
 .text_center {
   text-align: center; }
 
+.border_primary {
+  border: #CF4B2F 1px solid; }
+
+.text_semibold {
+  font-weight: 600; }
+
 .section .video-container.js-video.youtube-video-place {
   display: flex;
   justify-content: center;
@@ -594,6 +600,10 @@ body {
   margin-top: 12rem;
   width: 100%;
   margin-bottom: 7rem; }
+  .cenovnik .grid_block_1 {
+    grid-column: 1 / 3;
+    border: #CF4B2F 1px solid;
+    padding: 1.5rem; }
   .cenovnik .table {
     width: 100%;
     display: grid;
@@ -607,7 +617,6 @@ body {
     font-size: 1.7rem;
     color: #333; }
   .cenovnik .grid_block_2 {
-    border: #707070 1px solid;
     padding: 1.5rem; }
   .cenovnik .primary_color {
     color: #CF4B2F; }

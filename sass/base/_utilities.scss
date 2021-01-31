@@ -59,3 +59,11 @@
 .text_center {
    text-align: center;
 }
+
+.border_primary {
+   border: $color-primary 1px solid;
+}
+
+.text_semibold {
+   font-weight: 600;
+}
