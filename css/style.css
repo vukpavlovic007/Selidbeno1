@@ -294,7 +294,17 @@ body {
   @media (max-width: 1200px) {
     .home_picture {
       position: static;
-      transform: translate(0, 0); } }
+      transform: translate(0, 0);
+      padding: 9rem; } }
+  @media (max-width: 800px) {
+    .home_picture {
+      padding: 7rem; } }
+  @media (max-width: 600px) {
+    .home_picture {
+      padding: 5rem; } }
+  @media (max-width: 400px) {
+    .home_picture {
+      padding: 3rem; } }
   .home_picture .parent_img:after {
     content: "";
     position: absolute;
@@ -311,6 +321,11 @@ body {
     z-index: 1;
     width: 100%;
     position: relative; }
+
+@media (max-width: 400px) {
+  .margin_bottom {
+    margin-bottom: 1rem;
+    display: inline-block; } }
 
 .home_container {
   max-width: 1400px;

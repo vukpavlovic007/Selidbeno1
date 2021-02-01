@@ -25,6 +25,19 @@
    @media (max-width: 1200px) {
       position: static;
       transform: translate(0, 0);
+      padding: 9rem;
+   }
+
+   @media (max-width: 800px) {
+      padding: 7rem;
+   }
+
+   @media (max-width: 600px) {
+      padding: 5rem;
+   }
+
+   @media (max-width: 400px) {
+      padding: 3rem;
    }
 
    .parent_img:after {
@@ -48,6 +61,13 @@
       position: relative;
    }
 }  
+
+.margin_bottom {
+   @media (max-width: 400px) {
+      margin-bottom: 1rem;
+      display: inline-block;
+   }
+}
 
 .home_container {
    max-width: 1400px;
