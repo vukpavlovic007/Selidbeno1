@@ -147,6 +147,48 @@
       </div>
       </div>
    </section>
+   <section id="kontakt">
+      <div class="title">
+         <h2>Kontaktirajte nas!</h2>
+         <p>Zatrazite pomoc ako vam je potrebna selidba.</p>
+      </div>
+      <button class="special" type="button"
+         onclick="window.location.href = 'tel:+38161 2 540 540?body= Potrebna mi je selidba';"> <i
+            class="fas fa-2x fa-phone-alt"></i>
+         <p>Pozovite nas</p>
+      </button>
+
+      <button type="button" class="special_2" value="Posaljite SMS"
+         onclick="window.location.href = 'sms:+38161 2 540 540?body= Potrebna mi je selidba';"><i
+            class="fas fa-2x fa-envelope"></i>
+         <p class="special_paragraph">Posaljite SMS</p>
+      </button>
+      <div class="contact_form">
+         <p class="special_title">Kontakt forma</p>
+
+         <div class="form_container">
+            <div>
+               <label for="name">Vase ime</label>
+               <input class="name_input" type="text" name="name" id="name">
+            </div>
+            <div>
+               <label for="title">Naslov poruke</label>
+               <input class="title_input" type="text" name="title" id="title">
+            </div>
+            <div>
+               <label for="email">Vas Email</label>
+               <input class="email_input" type="text" name="email" id="email">
+            </div>
+            <div>
+               <label for="message">Poruka</label>
+               <textarea class="message_input" name="message" id="message" cols="30" rows="10" ></textarea>
+            </div>
+            <button class="btn button_btn mail-submit" onclick="sendEmail()">Posalji</button>
+            <p class="form-message"></p>
+         </div>
+      </div>
+   </section>
+   
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <script src="slider.js"></script>
    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
