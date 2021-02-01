@@ -353,6 +353,15 @@ body {
       align-items: initial; } }
   .home_container .header_text {
     z-index: 2; }
+    @media (max-width: 1200px) {
+      .home_container .header_text {
+        margin-left: 7rem; } }
+    @media (max-width: 800px) {
+      .home_container .header_text {
+        margin-left: 3rem; } }
+    @media (max-width: 600px) {
+      .home_container .header_text {
+        margin-left: 0; } }
     .home_container .header_text .header_red_text {
       color: #CF4B2F;
       font-size: 1.6rem; }
