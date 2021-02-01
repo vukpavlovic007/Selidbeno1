@@ -16,6 +16,10 @@
    backface-visibility: hidden;
 }
 
+.special_border_bottom {
+   border-bottom: 1px $color-primary solid;
+}
+
 .btn:hover {
    background-color: $color-primary-dark;
    transform: translateY(-0.5rem);
